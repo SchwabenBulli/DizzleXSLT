@@ -1,0 +1,114 @@
+<?xml version="1.0"?>
+<DizzleSheet>
+	<Property>
+		<Level>3</Level>
+		<Version>1.0</Version>
+		<BGColor>719D3B</BGColor>
+		<CreationDate>2020-10-27</CreationDate>
+		<CreatorName>Schmidt Spiele (Official)</CreatorName>
+	</Property>
+	<Category>
+		<FieldCategory Name="PurpleGem" Points="1"></FieldCategory>
+		<FieldCategory Name="YellowGem" Points="2"></FieldCategory>
+		<FieldCategory Name="OrangeGem" Points="3"></FieldCategory>
+		<FieldCategory Name="RowCompleted">
+			<Range RowStart="2" RowEnd="2" ColStart="1" ColEnd="9" Points="15" arrow="left"></Range>
+			<Range RowStart="3" RowEnd="3" ColStart="1" ColEnd="5" Points="5" arrow="right"></Range>
+			<Range RowStart="4" RowEnd="4" ColStart="1" ColEnd="5" Points="5" arrow="right"></Range>
+			<Range RowStart="5" RowEnd="5" ColStart="1" ColEnd="5" Points="5" arrow="right"></Range>
+			<Range RowStart="6" RowEnd="6" ColStart="1" ColEnd="5" Points="5" arrow="right"></Range>
+			<Range RowStart="6" RowEnd="6" ColStart="7" ColEnd="9" Points="3" arrow="left"></Range>
+			<Range RowStart="7" RowEnd="7" ColStart="1" ColEnd="5" Points="5" arrow="right"></Range>
+		</FieldCategory>
+		<FieldCategory Name="ColCompleted">
+			<Range RowStart="1" RowEnd="7" ColStart="2" ColEnd="2" Points="10" arrow="bottom"></Range>
+			<Range RowStart="1" RowEnd="7" ColStart="4" ColEnd="4" Points="10" arrow="bottom"></Range>
+		</FieldCategory>
+		<FieldCategory Name="BluePuzzle" Points="15"></FieldCategory>
+		<FieldCategory Name="BlueFlag" Points="10,6,3,1"></FieldCategory>
+		<FieldCategory Name="CrossedField" Points="-2"></FieldCategory>
+	</Category>
+	<GameField>
+		<GameColumn>
+			<Field category="CrossedField_Bomb">5</Field>
+			<Field category="PurpleGem">1</Field>
+			<Field>6</Field>
+			<Field>5</Field>
+			<Field>4</Field>
+			<Field category="PurpleGem">6</Field>
+			<Field category="Travel_Rocket">2</Field>
+		</GameColumn>
+		<GameColumn>
+			<Field category="PurpleGem">3</Field>
+			<Field category="PurpleGem">2</Field>
+			<Field>4</Field>
+			<Field>S</Field>
+			<Field>1</Field>
+			<Field category="PurpleGem">3</Field>
+			<Field category="PurpleGem">1</Field>
+		</GameColumn>
+		<GameColumn>
+			<Field category="CrossedField_Bomb">6</Field>
+			<Field category="PurpleGem">4</Field>
+			<Field>3</Field>
+			<Field>S</Field>
+			<Field>6</Field>
+			<Field category="PurpleGem">2</Field>
+			<Field category="PurpleGem">4</Field>
+		</GameColumn>
+		<GameColumn>
+			<Field category="PurpleGem">2</Field>
+			<Field category="PurpleGem">2</Field>
+			<Field>1</Field>
+			<Field>2</Field>
+			<Field>3</Field>
+			<Field category="PurpleGem">1</Field>
+			<Field category="PurpleGem">6</Field>
+		</GameColumn>
+		<GameColumn>
+			<Field category="CrossedField_Bomb">3</Field>
+			<Field category="GoldenLock_Lock">4</Field>
+			<Field>5</Field>
+			<Field>3</Field>
+			<Field>4</Field>
+			<Field category="BluePuzzle">2</Field>
+			<Field category="GoldenLock_Key">4</Field>
+		</GameColumn>
+		<GameColumn>
+			<Field></Field>
+			<Field>3</Field>
+			<Field></Field>
+			<Field></Field>
+			<Field></Field>
+			<Field></Field>
+			<Field></Field>
+		</GameColumn>
+		<GameColumn>
+			<Field category="YellowGem">4</Field>
+			<Field>5</Field>
+			<Field category="YellowGem">6</Field>
+			<Field></Field>
+			<Field category="BluePuzzle">4</Field>
+			<Field>1</Field>
+			<Field category="Travel_Planet">4</Field>
+		</GameColumn>
+		<GameColumn>
+			<Field category="YellowGem">2</Field>
+			<Field>5</Field>
+			<Field category="YellowGem">3</Field>
+			<Field></Field>
+			<Field category="OrangeGem">5</Field>
+			<Field>2</Field>
+			<Field category="OrangeGem">6</Field>
+		</GameColumn>
+		<GameColumn>
+			<Field category="BlueFlag">6</Field>
+			<Field>1</Field>
+			<Field category="BluePuzzle">4</Field>
+			<Field category="GoldenLock_Lock">6</Field>
+			<Field category="OrangeGem">5</Field>
+			<Field>3</Field>
+			<Field category="OrangeGem">1</Field>
+		</GameColumn>
+	</GameField>
+</DizzleSheet>
